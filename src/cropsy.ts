@@ -6,7 +6,7 @@ type LayoutDescription = {
     height: number;
 }
 
-type CropValues = {
+export type CropValues = {
     left: number;
     right: number;
     top: number;
