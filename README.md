@@ -1,9 +1,20 @@
 # zoomafew
 
-I wrote this in TypeScript
-You need node installed ot use it.
+This tool helps connect [ZoomOSC](https://www.liminalet.com/zoomosc) with [OBS Studio](https://obsproject.com/), allowing you to order your boxes by the names of the participants rather than the random order that Zoom sets them.
 
-Make sure you have a relatively up-to-date version of nodejs installed, including `npm`:
+I wrote this in TypeScript
+You need nodejs installed to build and use it.
+
+## Requirements
+
+- [OBS Studio](https://obsproject.com/)
+- [obs-websocket plugin](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)
+- [ZoomOSC](https://www.liminalet.com/zoomosc)
+- Time to experiment with settings
+
+## Warning
+
+This tool may change the cropping of everything in the current Scene Collection. Create a new one or duplicate an old one before running it.
 
 ## To Install
 
